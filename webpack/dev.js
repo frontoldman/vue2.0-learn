@@ -15,6 +15,7 @@ module.exports = merge(baseConfig, {
     'webpack/hot/only-dev-server',
   ],
   plugins: [
-    ...baseConfig.plugins
+    ...baseConfig.plugins,
+    new webpack.HotModuleReplacementPlugin()
   ]
 })
