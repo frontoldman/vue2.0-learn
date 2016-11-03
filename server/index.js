@@ -14,7 +14,7 @@ var server = new webpackDevServer(compiler, {
     colors: true  // 控制台输出带颜色
   },
   historyApiFallback: {
-    index: '/index.html'  // history api 会定位到的页面
+    index: 'index.dev.html'  // history api 会定位到的页面
   },
   publicPath: webpackConfig.output.publicPath,  // 编译文件的前缀
   proxy: {    // http代理

@@ -1,15 +1,15 @@
 /**
- * Created by zhangran on 16/11/2.
- */
+* Created by zhangran on 16/11/2.
+*/
 
 <template>
-    <div id="app">
-        哈哈上
-    </div>
+  <div id="app">
+    哈哈上
+  </div>
 </template>
 
 <script type="text/ecmascript-6">
-	export default {
+  export default {
     name: 'app',
     data() {
       return {
@@ -19,16 +19,12 @@
     mounted() {
 
     },
-    methods: {
-
-    },
-    components: {
-
-    }
-	}
+    methods: {},
+    components: {}
+  }
 </script>
 
 
 <style lang="less" rel="stylesheet/less" scoped>
-   
+
 </style>
